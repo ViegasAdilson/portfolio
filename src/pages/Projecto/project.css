@@ -1,0 +1,61 @@
+.project-section {
+  min-height: 100vh;
+  width: 70%;
+  padding-top: 30px;
+  position: absolute;
+  background: #dad5c3;
+  overflow-y: scroll;
+}
+.titile-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.capa:hover {
+  transform: rotateY(180deg);
+}
+
+.capa {
+  width: 250px;
+  height: 250px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.capa img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  width: 250px;
+  height: 250px;
+  backface-visibility: hidden;
+}
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+  background-color: var(--aside-color);
+  color: #243346;
+  transform: rotateY(180deg);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+}

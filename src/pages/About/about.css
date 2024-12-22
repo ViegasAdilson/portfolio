@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 40px;
+  color: var(--aside-color);
+  background: #dad5c3;
+}
+
+.about a {
+  color: var(--main-color);
+}

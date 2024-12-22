@@ -1,0 +1,48 @@
+* {
+  font-family: "Roboto Slab", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* list-style: none; */
+}
+:root {
+  --main-color: #54b689;
+  --text-color: #dad5c3;
+  --border-color: #999;
+  --aside-color: #1e2a3a;
+  --bio-border-color: #1e252e;
+  --about-bg-color: #111821;
+}
+.highlight {
+  color: var(--main-color);
+}
+
+.active {
+  font-size: 18px;
+  background-color: #54b689;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.nar {
+  color: var(--text-color);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /*position: absolute;*/
+  width: 95%;
+}
+.social a i {
+  color: var(--text-color);
+  font-size: 32px;
+  margin: 0px 20px;
+  text-decoration: none;
+  transition: transform 0.5s ease-in-out;
+}
+.social a:hover {
+  transform: scale(1.5);
+}
