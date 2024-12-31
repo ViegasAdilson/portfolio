@@ -1,13 +1,6 @@
-import styled from "styled-components";
-
-const GetTouch = styled.div`
-  text-align: center;
-  padding: 30px 30px 0px 0px;
-`;
-
 function Contact() {
   return (
-    <GetTouch>
+    <div className="getTouch">
       <p className="d-none d-md-block">GET IN TOUCH</p>
 
       <div className="social">
@@ -24,7 +17,7 @@ function Contact() {
           <i className="fab fa-github"></i>
         </a>
       </div>
-    </GetTouch>
+    </div>
   );
 }
 
