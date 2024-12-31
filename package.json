@@ -1,16 +1,17 @@
 {
-  "homepage": "https://viegasadilson.github.io/ReactPortfolio",
+  "homepage": "https://viegasadilson.github.io/ReactPortfolio/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "component": "^0.19.9",
