@@ -10,10 +10,15 @@ function Contact() {
         <a
           href="https://www.linkedin.com/in/adilson-pires-lima-viegas-0629221a2/"
           target="_blank"
+          rel="noreferrer"
         >
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="https://github.com/ViegasAdilson" target="_blank">
+        <a
+          href="https://github.com/ViegasAdilson"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fab fa-github"></i>
         </a>
       </div>

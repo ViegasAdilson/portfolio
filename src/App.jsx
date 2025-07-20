@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router";
 import Homepage from "./components/AppLayout";
 import Skills from "./pages/Skill/Skills";
 import MyCV from "./pages/MyCV/MyCV";

@@ -92,6 +92,9 @@
   transition: 0.4s;
 }
 
+.navbar-toggler {
+  overflow: none;
+}
 .navDiv a:hover {
   font-size: 18px;
   padding-left: 30px;
