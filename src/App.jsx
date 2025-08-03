@@ -10,8 +10,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/portfolio" element={<Homepage />}>
-          <Route index element={<Project />} />
+        <Route path="portfolio" element={<Homepage />}>
+          <Route path="portfolio" element={<Project />} />
           <Route path="skills" element={<Skills />} />
           <Route path="mycv" element={<MyCV />} />
           <Route path="about" element={<About />} />
