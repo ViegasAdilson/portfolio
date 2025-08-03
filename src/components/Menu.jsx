@@ -11,7 +11,7 @@ function Menu() {
         <i className="burg fas fa-bars"></i>
       </button>
       <div className="navDiv collapse navbar-collapse" id="navtarget">
-        <NavLink to="portfolio">
+        <NavLink to="/">
           <i className=" fas fa-box-open"></i>
           Project
         </NavLink>
